@@ -1,4 +1,4 @@
-# resilience4j-springboot-1
+# Resilience4j-springboot-1
 resilience4j spring boot 1 deprecated modulesas as spring boot 1 is our of life now :
 https://spring.io/blog/2018/07/30/spring-boot-1-x-eol-aug-1st-2019
 

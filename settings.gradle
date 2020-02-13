@@ -1,0 +1,3 @@
+rootProject.name = 'resilience4j-deprecated'
+include 'resilience4j-spring-boot'
+include 'resilience4j-spring-cloud'

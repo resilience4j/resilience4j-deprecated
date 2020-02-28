@@ -1,0 +1,17 @@
+dependencies {
+    compile("io.github.resilience4j:resilience4j-spring:${releaseVersion}")
+
+    compileOnly(libraries.spring_boot_aop)
+    compileOnly(libraries.spring_boot_actuator)
+
+    testCompile ("io.github.resilience4j:resilience4j-reactor:${releaseVersion}")
+    testCompile ("io.github.resilience4j:resilience4j-rxjava2:${releaseVersion}")
+    testCompile(libraries.rxjava2)
+    testCompile(libraries.reactor)
+    testCompile(libraries.spring_boot_test)
+    testCompile(libraries.spring_boot_aop)
+    testCompile(libraries.spring_boot_actuator)
+}
+
+compileJava.dependsOn(processResources)
+ext.moduleName = 'io.github.resilience4j.spring-boot-common'

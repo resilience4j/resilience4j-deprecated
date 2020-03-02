@@ -1,5 +1,5 @@
 dependencies {
-    compile ("io.github.resilience4j:resilience4j-spring-cloud-common:${releaseVersion}")
+    compile project(':resilience4j-spring-cloud-common')
 
     compile project(':resilience4j-spring-boot')
 
